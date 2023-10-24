@@ -12,3 +12,6 @@ void printDivisors(int n){
             cout << (n/i) << " ";
     }
 }
+//complexity
+//time - O(sqrt(n))
+//space - O(1)
