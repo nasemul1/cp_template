@@ -1,5 +1,5 @@
 void printDivisors(int n){
-    int i;
+    ll i;
     for (i = 1; i * i < n; i++) {
         if (n % i == 0)
             cout << i << " ";
